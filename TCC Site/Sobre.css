@@ -1,0 +1,189 @@
+body {
+    background-color: rgb(145, 110, 88);
+}
+
+.titulo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    font-size: 80px;
+    color: #f1f1f1;
+}
+
+
+.imagen2 {
+    background: #000;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    width: 1330px;
+    height: 400px;
+    transform: scale(0.6);
+}
+
+.span {
+    color: red;
+}
+
+.texto {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.texto1 {
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-top: -150px;
+    font-size: 25px;
+    background-image: url(img/TEXTO\ -\ SOBRE\ NÓS.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+}
+
+.nav-link {
+    font-size: 20px
+}
+
+
+/*********footer*********/
+
+footer {
+    position: absolute;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+@media(max-width:768px) {
+    .footer-content {
+        width: 100%;
+    }
+}
+
+.socials {
+    margin-right: 1200px;
+}
+
+.logo1 {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -50px;
+}
+
+.mapa {
+    margin-left: 1050px;
+    margin-top: -176px;
+}
+
+.navb{
+    margin-bottom: -50px;
+    margin-right: 1170px;
+}
+
+/*******logo nav bar*********/
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.ppp{
+    justify-content: center;
+    text-align: center;
+}
+
+/***********responsivo***********/
+
+@media screen and (max-width: 320px){
+    .titulo{
+        margin-left: 15px;
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .texto{
+        margin-left: -150px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .texto1{
+        background-image: none;
+        font-size: 10px;
+    }
+}
