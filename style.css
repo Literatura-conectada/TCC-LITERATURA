@@ -1,0 +1,226 @@
+@charset "utf-8";
+body{
+  background-image: linear-gradient(to bottom,#3a398bc9,rgb(17, 17, 17) );
+ 
+    
+  background-size: cover;
+}
+.direction{
+    text-align: center;
+}
+.direction button{
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #ffffff44;
+    border:none;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin:0 10px;
+}
+.direction button:hover{
+    background-color: #ffffff;
+}
+.item{
+    border-radius: 15px;
+    width:300px;
+    height:500px;
+    background-image: linear-gradient(to top, #AEC0CE, #ECECF2);
+    overflow: hidden;
+    transition: 0.5s;
+    margin:10px;
+    scroll-snap-align: start;
+}
+.item .avatar{
+    display: block;
+    margin:50px auto 10px;
+    width:100px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px #7e878d;
+}
+.item .content{
+    padding:30px;
+    font-family: monospace;
+}
+.item .content table td{
+    padding:10px 0;
+    border-bottom: 1px solid #AEC0CE;
+}
+.item .content table td:nth-child(2){
+    text-align: right;
+}
+.item .nameGroup{
+    text-align: center;
+    border-bottom:none!important;
+}
+#list{
+    display: flex;
+    width:max-content;
+}
+#formList{
+    width:1280px;
+    max-width: 100%;
+    overflow: auto;
+    margin:100px auto 50px;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+}
+#formList::-webkit-scrollbar{
+    display: none;
+}
+@media screen and (max-width: 1024px){
+    .item{
+        width: calc(33.3vw - 20px);
+    }
+    .direction{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .item{
+        width: calc(50vw - 20px);
+    }
+    .direction{
+        display: none;
+    }
+}
+  
+/*********footer***********/
+
+footer{
+    position: absolute;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+  }
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+  
+  }
+  .socials a:hover i{
+    color: aqua;
+  }
+  
+  .footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+  }
+
+  @media(max-width:768px) {
+    .footer-content {
+    width: 100%;
+    }
+    }
+
+    .socials {
+      margin-right: 1200px;
+  }
+  
+  .logo1 {
+      width: 100px;
+      height: 100px;
+      margin-bottom: -50px;
+  }
+  
+  .mapa {
+      margin-left: 1050px;
+      margin-top: -176px;
+  }
+  
+  .navb{
+    margin-bottom: -50px;
+    margin-right: 1170px;
+}
+
+    /******bottom*****/
+    .link-topo{
+      text-decoration: none;
+      color: white;
+      background-color:linear-gradient(to bottom,#3a398bc9,rgb(255, 255, 255) );
+      padding: 10px;
+      font-size: 30px;  
+    }
+
+    .EX1{
+      background-color: linear-gradient(to bottom,#3a398bc9,rgb(255, 255, 255) );
+      margin: 35px;
+    }
+
+    p{
+      text-align: center;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    h1{
+      text-align: center;
+      color: #fff;
+    }
+    .pp {
+      color: #fff;
+      font-size: 20px;
+    }
+
+
+:hover.ww{
+  color: #000;
+
+}
+
+
+
+
+.ppp{
+    justify-content: center;
+}
